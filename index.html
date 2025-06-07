@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Climate Change Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌍 Climate Change Dashboard</h1>
+    <p>Visualizing Key Global Climate Indicators</p>
+  </header>
+
+  <main class="dashboard">
+    <section class="card">
+      <h2>🌡️ Global Temperature Rise</h2>
+      <canvas id="tempChart"></canvas>
+    </section>
+    <section class="card">
+      <h2>🌬️ CO₂ Concentration</h2>
+      <canvas id="co2Chart"></canvas>
+    </section>
+    <section class="card">
+      <h2>🌊 Sea Level Rise</h2>
+      <canvas id="seaChart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>📊 Data is for educational use. Built using HTML, CSS & Chart.js</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
